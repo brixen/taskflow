@@ -20,6 +20,7 @@ In each of these, there are actions that a person performs in a particular seque
 
 There are a variety of tools or platforms that focus on workflow automation:
 
+* [Asana](https://asana.com/product/workflow-builder)
 * [Slack Workflows](https://slack.com/features/workflow-automation)
 * [MOXO Workflows](https://www.moxo.com/campaign/workflow)
 * [Pipefy](https://www.pipefy.com/lp/workflow-automation-cd-b/)
