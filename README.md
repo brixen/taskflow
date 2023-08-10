@@ -16,6 +16,24 @@ In each of these, there are actions that a person performs in a particular seque
 
 **Taskflow** is a tool for defining the steps in a task, as well as tool for presenting the task to a person and recording the actions they take.
 
+## Workflow Automation Tools
+
+There are a variety of tools or platforms that focus on workflow automation:
+
+* [Slack Workflows](https://slack.com/features/workflow-automation)
+* [MOXO Workflows](https://www.moxo.com/campaign/workflow)
+* [Pipefy](https://www.pipefy.com/lp/workflow-automation-cd-b/)
+* [Qntrl](https://www.qntrl.com)
+* [Workato](https://www.workato.com)
+
+## Vertical SaaS
+
+A common pattern of internet applications is to build a useful tool and then sell it to a large variety of businesses in different market segments.
+
+An alternative that has recently grown significantly is the "vertial SaaS (Software as a Service)", an internet application that focuses on a narrow segment and serves it exclusively. One advantage of this approach is reducing the amount of customization needed to integrate the tool into an organization. A requirement for vertical SaaS to be successful is a market segment composed of enough firms for the vertial SaaS to be profitable.
+
+[Fractal](https://www.fractalsoftware.com) has started a number of vertical SaaS companies.
+
 ## Some History
 
 Starting around 1985, as the personal computing revolution started unfolding, the idea of "business process automation" started being discussed a lot. See the [Google Ngram Viewer for "business process automation" and "robotic process automation"](https://books.google.com/ngrams/graph?content=business+process+automation%2Crobotic+process+automation&year_start=1970&year_end=2019&corpus=en-2019&smoothing=3&case_insensitive=true).
