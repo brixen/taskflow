@@ -14,12 +14,21 @@ require "action_view/railtie"
 # require "action_cable/engine"
 require "rails/test_unit/railtie"
 
+require 'active_graph/railtie'
+
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
 module Api
   class Application < Rails::Application
+
+    # Enable ActiveGraph generators, e.g:  rails generate model Admin --parent User
+    config.generators do |g|
+      g.orm :active_graph
+      # g.test_framework  :rspec, :fixture => false
+    end
+
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
 

@@ -1,6 +1,9 @@
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
+  config.neo4j.driver.url = 'neo4j://localhost:7472'
+  config.neo4j.driver.auth_token = Neo4j::Driver::AuthTokens.basic('neo4j', 'password')
+  config.neo4j.driver.encryption = false
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded any time

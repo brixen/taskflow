@@ -1,4 +1,4 @@
-source "https://rubygems.org"""
+source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.2.2"
@@ -35,6 +35,8 @@ gem "bootsnap", require: false
 
 gem "graphql", "2.0.26"
 
+gem "activegraph", "11.1"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
@@ -49,6 +51,10 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  gem "graphiql-rails", "1.9.0"
 end
 
-gem "graphiql-rails", "1.9.0", group: :development
+group :development do
+  gem "neo4j-rake_tasks"
+end
