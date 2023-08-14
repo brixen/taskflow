@@ -26,6 +26,9 @@ There are a variety of tools or platforms that focus on workflow automation:
 * [Pipefy](https://www.pipefy.com/lp/workflow-automation-cd-b/)
 * [Qntrl](https://www.qntrl.com)
 * [Workato](https://www.workato.com)
+* [outsystems](https://www.outsystems.com/low-code-platform/workflow-builder/)
+* [Taskflow.app](https://taskflow.space)
+* [Taskflow.io](https://www.taskflow.io)
 
 ## Vertical SaaS
 
